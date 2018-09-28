@@ -1,12 +1,21 @@
 
-let Plugin = require('./lib/plugin');
+module.exports = function (homebridge) {
+	Service = homebridge.hap.Service;
+	Characteristic = homebridge.hap.Characteristic;
+	Accessory = homebridge.hap.Accessory;
+	uuid = homebridge.hap.uuid;
 
-module.exports = function(homebridge) {
-    global.HomebridgeAccessory = homebridge.hap.Accessory;
-    global.HomebridgeCharacteristic = homebridge.hap.Characteristic;
-    global.HomebridgeIdentifier = homebridge.hap.uuid;
-    global.HomebridgePlatformAccessory = homebridge.platformAccessory;
-    global.HomebridgeService = homebridge.hap.Service;
-
-	homebridge.registerPlatform("homebridge-harmonyhub", "HarmonyHub", Plugin, true);
+	var exportedTypes = {
+		Service: homebridge.hap.Service,
+		Characteristic: homebridge.hap.Characteristic,
+		Accessory: homebridge.hap.Accessory,
+		PlatformAccessory: homebridge.platformAccessory,
+		uuid: homebridge.hap.uuid
+	};
+	
+	exportedTypes.AccessoryBase = require('./lib/accessory-base')(exportedTypes);
+	exportedTypes.HubAccessoryBase = require('./lib/hub-accessory-base')(exportedTypes);
+	exportedTypes.ActivityAccessory = require('./lib/activity-accessory')(exportedTypes);
+	exportedTypes.Hub = require('./lib/hub')(exportedTypes);
+	exportedTypes.HomePlatform = require('./lib/home-platform')(exportedTypes);
 };

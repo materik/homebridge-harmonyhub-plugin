@@ -1,27 +1,27 @@
 {
-  "name": "homebridge-harmonyhub",
-  "description": "Logitech Harmony Hub plugin for HomeBridge",
-  "version": "0.2.1",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/materik/homebridge-harmonyhub.git"
-  },
-  "license": "ISC",
-  "preferGlobal": true,
-  "keywords": [
-    "homebridge-plugin"
-  ],
-  "engines": {
-    "node": ">=0.12.0",
-    "homebridge": ">=0.3.1"
-  },
-  "dependencies": {
-    "bluebird": "^3.3.4",
-    "debug": "^2.2.0",
-    "harmonyhubjs-client": "^1.1.6",
-    "harmonyhubjs-discover": "^1.0.2",
-    "inherits": "^2.0.1",
-    "queue": "^3.1.0",
-    "lodash": "^4.6"
-  }
+    "name": "homebridge-harmonyhub",
+    "description": "Logitech Harmony Hub plugin for HomeBridge",
+    "version": "0.2.2",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/materik/homebridge-harmonyhub.git"
+    },
+    "license": "ISC",
+    "preferGlobal": true,
+    "keywords": [
+        "homebridge-plugin"
+    ],
+    "engines": {
+        "node": ">=0.12.0",
+        "homebridge": ">=0.3.1"
+    },
+    "dependencies": {
+        "bluebird": "^3.3.4",
+        "debug": "^2.2.0",
+        "harmonyhubjs-client": "^1.1.6",
+        "harmonyhubjs-discover": "^1.0.2",
+        "inherits": "^2.0.1",
+        "queue": "^3.1.0",
+        "lodash": "^4.6"
+    }
 }

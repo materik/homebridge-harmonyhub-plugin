@@ -12,16 +12,16 @@
         "homebridge-plugin"
     ],
     "engines": {
-        "node": ">=0.12.0",
+        "node": ">=8.0.0",
         "homebridge": ">=0.3.1"
     },
     "dependencies": {
-        "bluebird": "^3.3.4",
-        "debug": "^2.2.0",
-        "harmonyhubjs-client": "^1.1.6",
-        "harmonyhubjs-discover": "^1.0.2",
-        "inherits": "^2.0.1",
-        "queue": "^3.1.0",
-        "lodash": "^4.6"
+        "bluebird": "3.3.4",
+        "debug": "2.2.0",
+        "@harmonyhub/client": "1.0.5",
+        "@harmonyhub/discover": "1.0.5",
+        "inherits": "2.0.1",
+        "queue": "3.1.0",
+        "lodash": "4.6"
     }
 }

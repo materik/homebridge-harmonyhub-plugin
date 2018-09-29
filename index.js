@@ -17,7 +17,6 @@ module.exports = function(homebridge) {
 		uuid: homebridge.hap.uuid
 	};
 	
-	exportedTypes.AccessoryBase = require('./lib/accessory-base')(exportedTypes);
 	exportedTypes.ActivityAccessory = require('./lib/activity-accessory')(exportedTypes);
 	exportedTypes.HubAccessoryBase = require('./lib/hub-accessory-base')(exportedTypes);
 

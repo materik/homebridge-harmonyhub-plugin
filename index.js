@@ -1,5 +1,9 @@
 
-module.exports = function (homebridge) {
+var Homebridge = require('./lib/homebridge');
+
+var Service, Characteristic, Accessory, uuid;
+
+module.exports = function(homebridge) {
 	Service = homebridge.hap.Service;
 	Characteristic = homebridge.hap.Characteristic;
 	Accessory = homebridge.hap.Accessory;
@@ -15,9 +19,8 @@ module.exports = function (homebridge) {
 	
 	exportedTypes.AccessoryBase = require('./lib/accessory-base')(exportedTypes);
 	exportedTypes.ActivityAccessory = require('./lib/activity-accessory')(exportedTypes);
-	exportedTypes.HomePlatform = require('./lib/home-platform')(exportedTypes);
 	exportedTypes.Hub = require('./lib/hub')(exportedTypes);
 	exportedTypes.HubAccessoryBase = require('./lib/hub-accessory-base')(exportedTypes);
 
-	homebridge.registerPlatform("homebridge-harmonyhub", "HarmonyHub", exportedTypes.HomePlatform, true);
+	homebridge.registerPlatform("homebridge-harmonyhub", "HarmonyHub", Homebridge(exportedTypes), true);
 };

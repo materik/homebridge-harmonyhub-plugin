@@ -17,7 +17,6 @@
     },
     "dependencies": {
         "bluebird": "3.3.4",
-        "debug": "2.2.0",
         "@harmonyhub/client": "1.0.5",
         "@harmonyhub/discover": "1.0.5",
         "inherits": "2.0.1",

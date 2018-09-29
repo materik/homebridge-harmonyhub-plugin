@@ -19,7 +19,6 @@ module.exports = function(homebridge) {
 	
 	exportedTypes.AccessoryBase = require('./lib/accessory-base')(exportedTypes);
 	exportedTypes.ActivityAccessory = require('./lib/activity-accessory')(exportedTypes);
-	exportedTypes.Hub = require('./lib/hub')(exportedTypes);
 	exportedTypes.HubAccessoryBase = require('./lib/hub-accessory-base')(exportedTypes);
 
 	homebridge.registerPlatform("homebridge-harmonyhub", "HarmonyHub", Homebridge(exportedTypes), true);

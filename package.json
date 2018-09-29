@@ -1,6 +1,6 @@
 {
     "name": "homebridge-harmonyhub",
-    "description": "Logitech Harmony Hub plugin for HomeBridge",
+    "description": "Logitech HarmonyHub plugin for HomeBridge",
     "version": "0.2.2",
     "repository": {
         "type": "git",

@@ -1,5 +1,5 @@
 
-var Plugin = require('./lib/plugin');
+let Plugin = require('./lib/plugin');
 
 module.exports = function(homebridge) {
     global.HomebridgeService = homebridge.hap.Service;

@@ -18,7 +18,7 @@
     "dependencies": {
         "@harmonyhub/client": "1.0.5",
         "@harmonyhub/discover": "1.0.5",
-        "lodash": "4.6",
+        "lodash": "4.17.5",
         "promise": "8.0.2"
     }
 }

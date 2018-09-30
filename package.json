@@ -1,0 +1,24 @@
+{
+    "name": "homebridge-harmonyhub",
+    "description": "Logitech HarmonyHub plugin for HomeBridge",
+    "version": "0.2.2",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/materik/homebridge-harmonyhub.git"
+    },
+    "license": "ISC",
+    "preferGlobal": true,
+    "keywords": [
+        "homebridge-plugin"
+    ],
+    "engines": {
+        "node": ">=8.12.0",
+        "homebridge": ">=0.4.45"
+    },
+    "dependencies": {
+        "@harmonyhub/client": "1.0.5",
+        "@harmonyhub/discover": "1.0.5",
+        "lodash": "4.6",
+        "promise": "8.0.2"
+    }
+}

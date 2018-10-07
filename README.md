@@ -22,4 +22,3 @@ Add this to your Homebridge `config.json`:
     }
 ]
 ```
-

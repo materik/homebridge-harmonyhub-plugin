@@ -9,7 +9,7 @@
 # Install
 
 ```sh
-npm install -g materik/homebridge-harmonyhub#0.4.0
+npm install -g materik/homebridge-harmonyhub#0.5.0
 ```
 
 # Configuration

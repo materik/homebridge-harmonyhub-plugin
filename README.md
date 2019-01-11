@@ -1,18 +1,18 @@
-# homebridge-harmonyhub [![](https://img.shields.io/badge/contact-@thematerik-blue.svg?style=flat-square)](http://twitter.com/thematerik)
+# materik/homebridge-harmonyhub
 
-[HarmonyHub](http://www.logitech.com/en-us/product/harmony-hub) plugin for [Homebridge](https://github.com/nfarina/homebridge)
+[![](https://img.shields.io/badge/contact-@thematerik-blue.svg?style=flat-square)](http://twitter.com/thematerik)
+[![](https://img.shields.io/npm/v/materik/homebridge-harmonyhub.svg?style=flat-square)](https://www.npmjs.com/package/materik/homebridge-harmonyhub)
+[![](https://img.shields.io/npm/dm/materik/homebridge-harmonyhub.svg?style=flat-square)](https://www.npmjs.com/package/materik/homebridge-harmonyhub)
 
 > Solves the issue with the `HarmonyHub` connection dying after a while due to `MAX_CLIENTS=6`
 
-**NOTE:** I mainly wrote this package for my own benefit, but if it works well for you too, you're very welcome to use it. I'm also happy to respond to issues but if I'm not experiencing the same problem you're having with my setup, it's going to take a while before I get to it. I'm really sorry for that. PRs are instead encouraged.
-
-# Install
+## Install
 
 ```sh
-npm install -g materik/homebridge-harmonyhub#0.5.0
+npm install -g materik/homebridge-harmonyhub#0.5.1
 ```
 
-# Configuration
+## Configuration
 
 Add this to your Homebridge `config.json`:
 
@@ -24,3 +24,4 @@ Add this to your Homebridge `config.json`:
     }
 ]
 ```
+

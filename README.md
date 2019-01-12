@@ -4,7 +4,11 @@
 [![](https://img.shields.io/npm/v/homebridge-harmonyhub-plugin.svg?style=flat-square)](https://www.npmjs.com/package/homebridge-harmonyhub-plugin)
 [![](https://img.shields.io/npm/dm/homebridge-harmonyhub-plugin.svg?style=flat-square)](https://www.npmjs.com/package/homebridge-harmonyhub-plugin)
 
-> Solves the issue with the `HarmonyHub` connection dying after a while due to `MAX_CLIENTS=6`, also supports the Hub firmware 206 update.
+## Features
+
+* Makes all your `HarmonyHub` activities available in `HomeKit`
+* Solves the issue with the `HarmonyHub` connection dying after a while due to `MAX_CLIENTS=6`
+* Supports the `HarmonyHub` firmware 206 update
 
 ## Install
 
@@ -14,12 +18,12 @@ npm install -g homebridge-harmonyhub-plugin
 
 ## Configuration
 
-Add this to your Homebridge `config.json`:
+Add this to your Homebridge `config.json` file:
 
 ```json
 "platforms": [
     {
-        "platform": "Harmonyhub",
+        "platform": "HarmonyHub",
         "name": "homebridge-harmonyhub-plugin"
     }
 ]

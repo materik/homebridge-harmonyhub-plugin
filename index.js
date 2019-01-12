@@ -8,5 +8,5 @@ module.exports = function(homebridge) {
     global.HomebridgePlatformAccessory = homebridge.platformAccessory;
     global.HomebridgeService = homebridge.hap.Service;
 
-	homebridge.registerPlatform("homebridge-harmonyhub", "HarmonyHub", Plugin, true);
+    homebridge.registerPlatform("homebridge-harmonyhub-plugin", "HarmonyHub", Plugin, true);
 };

@@ -8,7 +8,8 @@
 
 * Makes all your `HarmonyHub` activities available in `HomeKit`
 * Solves the issue with the `HarmonyHub` connection dying after a while due to `MAX_CLIENTS=6`
-* Supports the `HarmonyHub` firmware 206 update
+* Supports the `HarmonyHub` firmware 250 update
+* Currently relies on `WebSockets` and not `XMPP`
 
 ## Install
 

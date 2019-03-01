@@ -1,0 +1,15 @@
+[
+    {
+        "id": "xxx",
+        "name": "xxx",
+        "excludeActivities": [
+            "xxx"
+        ],
+        "mapActivities": {
+            "yyy": "zzz"
+        }
+    },
+    {
+        "id": "2"
+    }
+]

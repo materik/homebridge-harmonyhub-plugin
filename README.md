@@ -25,7 +25,16 @@ Add this to your Homebridge `config.json` file:
 "platforms": [
     {
         "platform": "HarmonyHub",
-        "name": "homebridge-harmonyhub-plugin"
+        "name": "homebridge-harmonyhub-plugin",
+
+        // Optional
+        "config": {
+            "explorer": {
+                "options": {
+                    "ip": "192.168.38.255"
+                }
+            }
+        }
     }
 ]
 ```

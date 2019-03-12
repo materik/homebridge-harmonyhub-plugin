@@ -1,0 +1,23 @@
+{
+    "platform": "HarmonyHub",
+    "name": "homebridge-harmonyhub-plugin",
+    "config": {
+        "explorer": {
+            "options": {
+                "ip": "192.168.38.255"
+            },
+        },
+        "hubs": [
+            {
+                "id": "79192853-f458-4b47-825d-0f8aa7ddddc0",
+                "name": "My Hub",
+                "excludeActivities": [
+                    "Netflix"
+                ],
+                "mapActivities": {
+                    "ShutOff": "Shut Off TV"
+                }
+            }
+        ]
+    }
+}

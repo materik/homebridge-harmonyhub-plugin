@@ -25,7 +25,19 @@ Add this to your Homebridge `config.json` file:
 "platforms": [
     {
         "platform": "HarmonyHub",
-        "name": "homebridge-harmonyhub-plugin"
+        "name": "homebridge-harmonyhub-plugin",
+
+        // Optional
+        "config": {
+
+            // Pass options to the HarmonyHub explorer function
+            "explorer": {
+                "options": {
+                    "address": "255.255.255.255"
+                    // ...
+                }
+            }
+        }
     }
 ]
 ```

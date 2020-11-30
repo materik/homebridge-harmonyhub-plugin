@@ -33,7 +33,7 @@ Add this to your Homebridge `config.json` file:
             // Pass options to the HarmonyHub explorer function
             "explorer": {
                 "options": {
-                    "ip": "255.255.255.255"
+                    "address": "255.255.255.255"
                     // ...
                 }
             }

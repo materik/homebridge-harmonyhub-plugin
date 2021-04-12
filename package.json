@@ -1,7 +1,7 @@
 {
     "name": "homebridge-harmonyhub-plugin",
     "description": "Logitech HarmonyHub plugin for HomeBridge",
-    "version": "0.5.8",
+    "version": "0.5.9",
     "repository": {
         "type": "git",
         "url": "git://github.com/materik/homebridge-harmonyhub-plugin.git"

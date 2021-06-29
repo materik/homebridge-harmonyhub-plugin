@@ -1,8 +1,7 @@
 # homebridge-harmonyhub-plugin
 
-[![](https://img.shields.io/badge/contact-@thematerik-blue.svg?style=flat-square)](http://twitter.com/thematerik)
+[![Project Status: Unsupported – The project has reached a stable, usable state but the author(s) have ceased all work on it. A new maintainer may be desired.](https://www.repostatus.org/badges/latest/unsupported.svg)](https://www.repostatus.org/#unsupported)
 [![](https://img.shields.io/npm/v/homebridge-harmonyhub-plugin.svg?style=flat-square)](https://www.npmjs.com/package/homebridge-harmonyhub-plugin)
-[![](https://img.shields.io/npm/dm/homebridge-harmonyhub-plugin.svg?style=flat-square)](https://www.npmjs.com/package/homebridge-harmonyhub-plugin)
 
 ## Features
 
